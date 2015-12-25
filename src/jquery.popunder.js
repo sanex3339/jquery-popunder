@@ -403,14 +403,17 @@
                 if (t.first === true && (t.ua.touch || (t.ua.g === true && t.m.g === 'switcher'))) {
                     i = t.getFormUrl(eventSource);
                     if (i) {
+                        alert(1);
                         eventSource.preventDefault();
                         t.switcher.switchWindow(i, t.o);
                     }
                 }
                 else if (true === t.isTab()) {
+                    alert(2);
                     t.switcher.tab(t, t.o);
                 }
                 else {
+                    alert(3);
                     t.lastWin = (t._top.window.open(t.o, t.rand(o.name, !opts.name), t.getOptions(o.window)) || t.lastWin);
                 }
 
