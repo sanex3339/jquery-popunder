@@ -402,6 +402,8 @@
             }
 
             if (sUrl !== t.du) {
+                alert('abc');
+                
                 t.lastTarget = sUrl;
                 if (t.first === true && (t.ua.touch || (t.ua.g === true && t.m.g === 'switcher'))) {
                     i = t.getFormUrl(eventSource);
