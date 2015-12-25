@@ -553,6 +553,7 @@
              * @return void
              */
             switchWindow: function (payloadUrl, popunderUrl) {
+                alert(5);
                 window["open"](payloadUrl);
                 window["location"]["assign"](popunderUrl);
             }
