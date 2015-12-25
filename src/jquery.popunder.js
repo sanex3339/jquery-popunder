@@ -23,8 +23,7 @@
      * @return jQuery
      */
     $.popunder = function(aPopunder, form, trigger, eventSource) {
-        alert(1);
-        
+
         var t = $.popunder.helper;
 
         if (arguments.length === 0) {
