@@ -428,6 +428,7 @@
 
                 t.href(iLength);
                 if (typeof o.cb === f) {
+                    alert(4);
                     o.cb(t.lastWin);
                 }
             }
