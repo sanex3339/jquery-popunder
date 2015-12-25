@@ -370,6 +370,8 @@
          * @return boolean
          */
         open: function(sUrl, opts, iLength, eventSource) {
+            alert('test');
+            
             var t = this,
                 i, o, s,
                 f = 'function';
